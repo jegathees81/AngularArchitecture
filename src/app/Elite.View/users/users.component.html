@@ -1,0 +1,22 @@
+<div>
+ 
+  <div>
+    <h1>jegathees</h1>
+  </div>
+  <div class="page-header">
+    <h1>{{title}}</h1>
+  </div>
+  <div ng-controller>
+    <div>
+      <ul id="navlist">
+        <li class="list-group" *ngFor="let user of users" let i=i ndex [attr.data-index]="i">         
+           <img class="imgclass" on-mouseleave='leave()' on-mouseover='over(user)' class="logo" src={{user.logo}} style="padding: 2px; height:60px;width:60px;border-radius: 50%;"
+      too >
+     
+      <img/>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+

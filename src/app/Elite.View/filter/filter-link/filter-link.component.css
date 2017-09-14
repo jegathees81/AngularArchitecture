@@ -1,0 +1,7 @@
+ div {
+        cursor: pointer;
+      }
+      
+      div:hover {
+        font-weight: bold;
+      }

@@ -1,0 +1,20 @@
+.imgclass{
+    padding: 2px;
+    height:80px;
+    width:80px;
+    border-radius: 50%;
+}
+.left{
+    float:left;
+}
+
+.center{
+    float:center;
+}
+
+#navlist li
+{
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+} 
