@@ -1,7 +1,0 @@
-
-<app-todo *ngFor="let t of filtered | async" 
-                [text]="t.text" 
-                [completed]="t.completed"
-                [id]="t.id"
-                (toggle)="emitToggle($event)">
-        </app-todo>
