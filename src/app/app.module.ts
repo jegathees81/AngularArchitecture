@@ -11,11 +11,6 @@ import { UserService } from "./Elite.Services/UserServices";
 import { HttpModule } from "@angular/http";
 import { FooterComponent } from './footer/footer.component';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
-import { ButtonGroupComponent } from './Shared/button-group/button-group.component';
-import { TodolistComponent } from './Elite.View/todolist/todolist.component';
-import { TodoComponent } from './Elite.View/todolist/todo/todo.component';
-import { FilterComponent } from './Elite.View/filter/filter.component';
-import { FilterLinkComponent } from './Elite.View/filter/filter-link/filter-link.component';
 import { DatabaseService } from "./Elite.DataAccess/DatabaseService";
 
 
@@ -26,12 +21,7 @@ import { DatabaseService } from "./Elite.DataAccess/DatabaseService";
     NavComponent,
     routedComponents,
     UsersComponent,
-    FooterComponent,
-    ButtonGroupComponent,
-    TodolistComponent,
-    TodoComponent,
-    FilterComponent,
-    FilterLinkComponent    
+    FooterComponent   
   ],
   imports: [
     BrowserModule,
